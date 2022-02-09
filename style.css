@@ -1,3 +1,8 @@
+*{
+
+  background-color: #555;
+}
+
 .body {
   box-sizing: border-box;
   margin: 0;
@@ -7,6 +12,7 @@
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+
 }
 
 .container {
@@ -59,6 +65,7 @@
   bottom: 1.5rem;
   left: 0.5rem;
   opacity: 0;
+  background-color: transparent;
 }
 
 .panel.active {
